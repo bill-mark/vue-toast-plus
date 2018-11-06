@@ -25,4 +25,5 @@
         })
   ```
   
-  [该插件开发教程](https://www.jianshu.com/p/9645e6a26bc2)
+  该插件开发教程:
+  https://www.jianshu.com/p/9645e6a26bc2
