@@ -8,13 +8,11 @@
          <div class="alert_title">
              <div class="alert_title_left">{{dialogname}}</div>
              <div class="alert_title_right" @click="closeMyself"></div>
-         </div>
-         
+         </div>        
         <div style="padding: 10px 15px;;text-align:left;
                     font-size:14px;color:#606266">
               {{alert_text}}
         </div>
-
          <div class="down" > 
              <div v-if="showCancle" class="down_button_cancle" @click="closeMyself">取消</div>
              <div class="down_button" @click="besure">确定</div>
@@ -41,7 +39,6 @@ methods: {
      this.showCancle = showCancle
      this.dialogname = dialogname
      this.alert_text = alert_text
-
      this.isShow = true
   },
   closeMyself () {
@@ -52,7 +49,6 @@ methods: {
      this.isShow = false
      this.callBack(true)
   },
-
 }
 }
 </script>
