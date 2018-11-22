@@ -10,7 +10,9 @@
 1.npm install vue-toast-plus
 
 2.在main.js中
+
   import Toast from 'vue-toast-plus'
+  
   Vue.use(Toast)
   
 3.调用位置
