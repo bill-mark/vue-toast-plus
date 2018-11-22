@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/assets/index.js',
+  entry: './src/lib/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',

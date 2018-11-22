@@ -1,5 +1,7 @@
 import Toasttemplate from './vue-toast.vue'
 
+
+
 let Toast = {}
 let currentMsg = null
 
