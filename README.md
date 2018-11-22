@@ -1,15 +1,18 @@
-#vue-toast-plus
+# vue-toast-plus
 
 一款vue适用的弹窗插件,有消息提示模式和确认消息模式
 
 ![](https://github.com/bill-mark/vue-toast-plus/blob/master/1.png?raw=true)
 ![](https://github.com/bill-mark/vue-toast-plus/blob/master/2.png?raw=true)
 
-##使用方法:
+## 使用方法:
+
 1.npm install vue-toast-plus
+
 2.在main.js中
   import Toast from 'vue-toast-plus'
   Vue.use(Toast)
+  
 3.调用位置
   ```
    this.$toast({
