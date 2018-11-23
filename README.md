@@ -1,6 +1,7 @@
 # vue-toast-plus
 
 一款vue适用的弹窗插件,有消息提示模式和确认消息模式
+
 A Vue-based pop-up plug-in with message prompt mode and confirmation message mode
 
 ![](https://github.com/bill-mark/vue-toast-plus/blob/master/1.png?raw=true)
