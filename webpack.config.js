@@ -6,8 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vueToastPlus.js',
-    library: 'vueToastPlus',
+    filename: 'vuetoastplus.js',
+    library: 'vuetoastplus',
+    libraryTarget:'umd'
   },
   module: {
     rules: [
